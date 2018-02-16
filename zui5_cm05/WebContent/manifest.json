@@ -80,7 +80,13 @@
 				"name": "secondView",
 				"view":"zjs_view_05_02",
 				"targetAggregation": "pages"
-			}
+			},
+			{
+            "pattern": ":all*:",
+            "name": "NotFound",
+            "view": "zjs_view_not_found",
+            "targetAggregation": "pages"
+          }
 			]
 		}
 	}
