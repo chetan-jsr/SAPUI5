@@ -1,0 +1,11 @@
+{
+	"Individual": [
+		{
+			"ID": "1234567890",
+			"Fname": "First Name",
+			"Lname": "Last Name",
+			"DOB": "abc",
+			"Country": "IN"
+		}
+	]
+}

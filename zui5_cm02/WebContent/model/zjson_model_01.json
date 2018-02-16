@@ -1,0 +1,68 @@
+{	
+	"Label": [
+		{
+			"ID": "Product ID",
+			"Type": "Material Type",
+			"Group": "Material Group",
+			"Quantity": "Quantity",
+			"Uom": "Unit of Measure",
+			"Price": "Price",
+			"Currency": "Currency",
+			"Description": "Material Description",
+			"Manufacturer": "Manufactered By",
+			"Status": "Availability Status"
+		}
+	],
+	"Placeholder": [
+		{
+			"ID": "Enter the Product ID",
+			"Type": "Enter the Material Type",
+			"Group": "Enter the Material Group",
+			"Quantity": "Enter the Quantity",
+			"Uom": "Enter the Unit of Measure",
+			"Price": "Enter the Price",
+			"Currency": "Enter the Currency",
+			"Description": "Enter the Material Description",
+			"Manufacturer": "Enter the Manufacterer's Name",
+			"Status": "Enter the Availability Status"
+		}
+	],
+	"Product": [
+		{
+			"ID": "9809901",
+			"Type": "Type 1",
+			"Group": "Group 1",
+			"Quantity": "20",
+			"Uom": "KG",
+			"Price": "50",
+			"Currency": "INR",
+			"Description": "Test Product 1",
+			"Manufacturer": "XYZ Enterprises",
+			"Status": "In Stock"
+		},
+		{
+			"ID": "9809902",
+			"Type": "Type 2",
+			"Group": "Group 2",
+			"Quantity": "20",
+			"Uom": "KG",
+			"Price": "50",
+			"Currency": "INR",
+			"Description": "Test Product 2",
+			"Manufacturer": "XYZ Enterprises",
+			"Status": "In Stock"
+		},
+		{
+			"ID": "9809903",
+			"Type": "Type 1",
+			"Group": "Group 2",
+			"Quantity": "20",
+			"Uom": "KG",
+			"Price": "50",
+			"Currency": "INR",
+			"Description": "Test Product 3",
+			"Manufacturer": "ABC Corporations",
+			"Status": "In Stock"
+		}
+	]
+}
