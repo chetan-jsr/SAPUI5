@@ -29,7 +29,6 @@ sap.ui.jsview("sapui5.app05.view.zjs_view_05_01", {
  		return new sap.m.Page({
 			title: "Title - First Page",
 			content: [
-//			          	oButton
 			          ],
 			footer: [
 			         	oFooter

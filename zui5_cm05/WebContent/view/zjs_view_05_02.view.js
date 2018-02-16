@@ -13,11 +13,27 @@ sap.ui.jsview("sapui5.app05.view.zjs_view_05_02", {
 	* @memberOf view.zjs_view_05_02
 	*/ 
 	createContent : function(oController) {
+		
+		var oButton = new sap.m.Button("idButton0502", {
+			text:"Back to Prev Page",
+			press:[oController.onPrevPage, oController]
+		});
+		
+		var oFooter = new sap.m.Bar("footerPage2", {
+			contentLeft : [oButton], // sap.ui.core.Control
+//			contentMiddle : [], // sap.ui.core.Control
+//			contentRight : [], // sap.ui.core.Control
+		});
+		
  		return new sap.m.Page({
 			title: "Title - Page 2",
+			showNavButton: true,
+			navButtonPress: [oController.onPrevPage, oController],
 			content: [
 			
-			]
+			],
+			footer: [	oFooter
+			         ]
 		});
 	}
 
