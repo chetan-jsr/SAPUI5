@@ -15,7 +15,7 @@ sap.ui.jsview("sapui5.app05.view.zjs_view_not_found", {
 	createContent : function(oController) {
 		
 		var oText = new sap.m.Text({
-            text: "404. This is not the web page you are looking for :( ."
+            text: "404. This is not the web page you are looking for :( .\n"
           });
 		
 		var oLink = new sap.m.Link({
@@ -25,7 +25,7 @@ sap.ui.jsview("sapui5.app05.view.zjs_view_not_found", {
 		
 		
  		return new sap.m.Page({
-			title: "NotFound Page",
+			title: "Page Not Found",
 			content: [
 			          oText,
 			          oLink

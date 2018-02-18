@@ -1,10 +1,10 @@
 sap.ui.controller("sapui5.app05.controller.zjs_view_05_01", {
 
 	onNext: function()	{
-		// Now Get the Router Info
+		// Get the Router Info
 		var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 
-		// Tell the Router to Navigate To Route_PODetail which is linked to V_PODetail view
+		// Tell the Router to Navigate To view "zjs_view_05_02" using the route "secondView" defined in manifest.json
 		oRouter.navTo("secondView");
 	}
 	
